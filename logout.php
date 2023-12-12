@@ -1,0 +1,11 @@
+<?php
+session_start();
+$_SESSION['email']='';
+$_SESSION['role']='';
+$_SESSION['phone']='';
+$_SESSION['name']='';
+$_SESSION['lastname']='';
+$_SESSION['address']='';
+$_SESSION['password']='';
+header('location:index.php');
+?>
